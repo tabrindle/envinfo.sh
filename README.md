@@ -22,7 +22,7 @@
 ## Usage
 
 -   In your terminal: `curl https://raw.githubusercontent.com/tabrindle/envinfo.sh/master/envinfo.sh | bash`
--   Or for short: `curl getenv.info | bash`
+-   Or for short: `curl -L getenv.info | bash`
 
 ## Alternatives
 
