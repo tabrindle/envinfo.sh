@@ -24,6 +24,13 @@
 -   In your terminal: `curl https://raw.githubusercontent.com/tabrindle/envinfo.sh/master/envinfo.sh | bash`
 -   Or for short: `curl -L getenv.info | bash`
 
+## Security
+
+- Piping a script from the internet directly to your shell is generally frowned upon for many reasons, one being it could contain nefarious or incomplete code. 
+- If this is a concern, you may want to download it directly from github via https (not through my convenient domain), inspect it for correctness and completeness, then only then run it.
+- There is no need to run sudo with this script, so please don't.
+- If there is any doubt, do not run this on any production system. 
+
 ## Alternatives
 
 -   type `command -v` until you smash your computer
